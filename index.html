@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Three Projects Webpage</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+     
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="style.css" >
+    </head>
+
+    <body>
+        <header>
+            <nav
+                class="navbar navbar-expand-lg navbar-dark navbar-static-top"
+            >
+                <div class="container">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button
+                        class="navbar-toggler hidden-lg-up"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavId"
+                        aria-controls="collapsibleNavId"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    ></button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#" aria-current="page"
+                                    >Home
+                                    <span class="visually-hidden">(current)</span></a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex my-2 my-lg-0">
+                            <input
+                                class="form-control me-sm-2"
+                                type="text"
+                                placeholder="Search"
+                            />
+                            <button
+                                class="btn btn-outline-success my-2 my-sm-0"
+                                type="submit"
+                            >
+                                Search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            
+        </header>
+       <main>
+
+ <!-- Profile -->
+ <section class="jumbotron text-center mr-3 pb-3">
+    <div class="bg-img"></div> 
+    <div class="container content">
+        <img src="lyle.jpg" alt="It's a me! mario" class="rounded-circle shadow p-img mr-3 mt-3 mb-3">
+        <h1 class="jumbotron-heading">Welcome to my portfolio</h1>
+        <p class="lead pb-3">~Well I'm a writer~</p>
+    </div>
+</section>
+
+<br> <br>
+ <!-- Portfolios -->
+        <div class="card-group">
+            <div class="card" onclick="colorChange('#800020')">
+              <img class="card-img-top" src="port1.jpg" alt="Card img cap">
+              <div class="card-body">
+                <h5 class="card-title">"Today's Truth, Tommorow's Lie"</h5>
+                <p class="card-text">Eternity is rarely a blessing <br> "Til Death do us part? I'm afraid it shall, my dear."</p>
+                <div class="d-grid gap-2">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" id="modal1">More Details</button>
+                </div>
+                
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top" src="port2.jpg" alt="Card img cap">
+              <div class="card-body" onclick="colorChange('#000080')">
+                <h5 class="card-title">"The Lie and Journey's End"</h5>
+                <p class="card-text">A Lie, No matter how beautiful, no matter how exquisite. Will remain a lie.</p>
+                <div class="d-grid gap-2">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" id="modal2">More Details</button>
+                </div>
+                
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top" src="port3.jpg" alt="Card img cap" >
+              <div class="card-body" onclick="colorChange('#00A86B')">
+                <h5 class="card-title">"The Cycle of Sacrifice"</h5>
+                <p class="card-text">A Duty at world's End, a Blind faith to carry the burden. <br> Heroism? Or Foolishness.</p>
+              <div class="d-grid gap-2">
+                <button type="button" class="btn btn-sm btn-outline-secondary" id="modal3">More Details</button>
+              </div>
+              
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Modals -->
+
+
+         <!-- Modal1 -->
+<div id="proj1" class="modal modal-sheet">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">"Today's Truth, Tommorow's Lie"</h5>
+      </div>
+      <div class="modal-body">
+        <p>It is only human, Only mortal, to crave immortality and its permeance. Like an ethereal dream always out of reach one grasps so tightly at eternal life they neglect the reality of this world. <br><br> That eternity is a curse, Not a blessing. <br> <i>For what is a long lived life, if lived alone?</i> Eternity is a life of goodbyes, a life of running, a life of stagnation in a sea of change. How little would I love you mean, How little would Til death do us part?  <br><br> <b> To some unfortuante few, I love you, is synonymous to goodbye. </b></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary close1">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal2 -->
+<div id="proj2" class="modal modal-sheet">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">"The Lie and Journey's End"</h5>
+      </div>
+      <div class="modal-body">
+        <p>How far would you go for the people you love? the people so deeply entrenched into your heard? Would the price you pay be so gladly steep that you give not just heart, but mind aswell? <br><br>A Journey of tested faith, A battle against destined fate. A Daughter and A Father, A Prince and his King. A Battle against the frigid North, Climate and Creature. <br> <i>A Crown of madness</i> and a song of love, Will the crown be a burden beared, or will a madness take root? <br><br> <b>Heavy is the head that wears the crown, burdened is the mind that leads the land</b></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary close2">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal3 -->
+<div id="proj3" class="modal modal-sheet">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">"The Cycle of Sacrifice"</h5>
+      </div>
+      <div class="modal-body">
+        <p>Faith, Duty, Sacrifice. Ideals so synonymous and intertwined their meaning may as well be one. <br><br> The Heroically tragic tale of A Queen gone mad, A hero served by her madness, and a monster who's monstrosity is all but facade. <i>Sacrifice</i> Their one unifying truth, The queen, The Father, The Monster <br><br> <b>And a Sacrifice for the greater good. </b></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary close3">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <!-- Contact form -->
+
+        <div class="contact-form-container">
+          <h2>Contact Us</h2>
+          <form id="contactForm" action="#" method="post">
+              <div class="form-group">
+                  <label for="name">Full Name:</label>
+                  <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                  <label for="email">Email Address:</label>
+                  <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                  <label for="subject">Subject:</label>
+                  <input type="text" id="subject" name="subject" required>
+              </div>
+              <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="submit-button btn-secondary">Send Message</button>
+          </form>
+      </div>
+      
+        </main>
+        <footer>
+        </footer>
+        
+        <!-- Link to the external JavaScript file -->
+        <script src="script.js"></script>
+        
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
